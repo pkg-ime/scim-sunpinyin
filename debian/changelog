@@ -1,0 +1,14 @@
+scim-sunpinyin (2.0.3-1) experimental; urgency=low
+
+  * New upstream release 2.0.3.
+  * Upload to unstable.
+  * Update VCS field in debian/control.
+  * Remove README.source, it's no meaning now.
+
+ -- Liang Guo <bluestonechina@gmail.com>  Sat, 19 Feb 2011 18:33:07 +0800
+
+scim-sunpinyin (2.0.2-1) experimental; urgency=low
+
+  * Initial release (Closes: #600553) 
+
+ -- Liang Guo <bluestonechina@gmail.com>  Mon, 18 Oct 2010 20:29:39 +0800

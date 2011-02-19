@@ -1,0 +1,19 @@
+Source: scim-sunpinyin
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: Liang Guo <bluestonechina@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), scons, pkg-config, libscim-dev, libsunpinyin-dev
+Standards-Version: 3.9.1
+Homepage: http://code.google.com/p/sunpinyin
+Vcs-Git: git://git.debian.org/git/collab-maint/scim-sunpinyin
+Vcs-Browser: http://git.debian.org/?p=collab-maint/scim-sunpinyin.git
+
+Package: scim-sunpinyin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sunpinyin-data
+Description: sunpinyin engine for scim
+ Sunpinyin is a statistical language model (SLM) based input method
+ engine for Simplified Chinese, it features full sentence input.
+ .
+ This package contains the sunpinyin engine wrapper for scim.
