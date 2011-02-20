@@ -10,15 +10,15 @@ SCONS=scons
 
 build: build-stamp
 build-stamp: 
-	$(SCONS) -C wrapper/scim
+	$(SCONS)
 	touch build-stamp
 
 clean: clean-patched 
 clean-patched:
 	dh_testdir
 	dh_testroot
-	$(SCONS) -C wrapper/scim -c
-	-rm wrapper/scim/.sconsign.dblite wrapper/scim/config.log wrapper/scim/configure.conf
+	$(SCONS) -c
+	-rm .sconsign.dblite config.log configure.conf
 	dh_clean 
 
 install: install-stamp
@@ -27,7 +27,7 @@ install-stamp: build-stamp
 	dh_testroot
 	dh_prep
 	dh_installdirs
-	$(SCONS) -C wrapper/scim install --prefix=$(DEB_DESTDIR)/usr --install-sandbox=../../debian/tmp
+	$(SCONS) install --prefix=$(DEB_DESTDIR)/usr --install-sandbox=debian/tmp
 	dh_install --sourcedir=debian/tmp --fail-missing
 	touch install-stamp
 
