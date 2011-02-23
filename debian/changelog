@@ -1,3 +1,9 @@
+scim-sunpinyin (2.0.3-1.ubuntu1.lucid1) lucid; urgency=low
+
+  * Upload to ppa:liangguo/sunpinyin for ubuntu lucid.
+
+ -- Liang Guo <bluestonechina@gmail.com>  Wed, 23 Feb 2011 22:03:01 +0800
+
 scim-sunpinyin (2.0.3-1) unstable; urgency=low
 
   * New upstream release 2.0.3.
