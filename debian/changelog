@@ -1,3 +1,9 @@
+scim-sunpinyin (2.0.3-2) unstable; urgency=low
+
+  * Update debian/copyright to fit DEP-5
+
+ -- Liang Guo <bluestonechina@gmail.com>  Fri, 09 Sep 2011 13:45:53 +0800
+
 scim-sunpinyin (2.0.3-1) unstable; urgency=low
 
   * New upstream release 2.0.3.
